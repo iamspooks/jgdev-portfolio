@@ -119,7 +119,7 @@ section.inicio{
     margin-top: 20px;
 }
 
-.perso-welcome {
+.perso-welcome{
     float: right;
     width: 50%;
     opacity: 0; 
@@ -142,7 +142,7 @@ section.inicio{
     position:relative;
 }
 
-.footer-wave-svg {
+.footer-wave-svg{
     background-color: transparent;
     display: block;
     height: 60px;
@@ -150,7 +150,7 @@ section.inicio{
     top: -1px;
     width: 100%;
 }
-.footer-wave-path {
+.footer-wave-path{
     fill: #000000;
 }
 
@@ -168,8 +168,8 @@ section.sobre{
     float: left;
     margin-left: 20px;
     margin-top: 35px;
-    opacity: 0; /* Inicialmente oculta */
-    transition: opacity 5s ease; /* Duração de 2 segundos */
+    opacity: 0; 
+    transition: opacity 5s ease; 
 }
 
 .sobre-mim.mostrar{
@@ -188,11 +188,11 @@ section.sobre{
     margin-top: 20px;
 }
 
-.sobre-skills {
+.sobre-skills{
     width: 38%; 
     float: right;
-    opacity: 0; /* Inicialmente oculta */
-    transition: opacity 5s ease; /* Duração de 2 segundos */
+    opacity: 0; 
+    transition: opacity 5s ease; 
 }
 
 .sobre-skills h2{
@@ -224,22 +224,22 @@ section.sobre{
     opacity: 1;
 }
 
-.card-certificados {
+.card-certificados{
     margin-top: 50px;
     background-color: black;
     padding: 20px;
-    text-align: center; /* Centraliza o texto */
+    text-align: center; 
 }
 
-.card-certificados h2 {
+.card-certificados h2{
     color: white;
     font-size: 24px;
     font-style: italic;
     margin-left: 20px;
-    margin-bottom: 20px; /* Espaço entre o título e os certificados */
+    margin-bottom: 20px; 
 }
 
-.card-certificados-wraper {
+.card-certificados-wraper{
     max-width: 900px;
     margin: 0 auto;
     display: flex;
@@ -247,7 +247,7 @@ section.sobre{
     flex-grow: 1;
 }
 
-.card-certificados-single {
+.card-certificados-single{
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -256,7 +256,7 @@ section.sobre{
     border: none;
 }
 
-.card-certificados-single embed {
+.card-certificados-single embed{
     width: 100%;
     height: 300px;
     border: none;
