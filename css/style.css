@@ -41,6 +41,9 @@ header{
     float: left;
     font-family: 'Oswald';
 
+    opacity: 0; 
+    transform: translateY(100%); 
+    transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 .logo a{
@@ -53,6 +56,10 @@ header{
 
 nav.desktop{
     float: right;
+
+    opacity: 0; 
+    transform: translateY(100%); 
+    transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 nav.desktop ul{
@@ -81,6 +88,25 @@ nav.desktop a:hover{
 
 nav.mobile{
     display: none;
+
+    opacity: 0; 
+    transform: translateY(100%); 
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.logo.show-header{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+nav.desktop.show-header{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+nav.mobile.show-header{
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /* home */
@@ -192,7 +218,7 @@ section.sobre{
     width: 38%; 
     float: right;
     opacity: 0; 
-    transition: opacity 5s ease; 
+    transition: opacity 2s ease; 
 }
 
 .sobre-skills h2{
@@ -248,7 +274,6 @@ section.sobre{
 }
 
 .card-certificados-single{
-    background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     width: calc(48% - 10px);
@@ -262,16 +287,29 @@ section.sobre{
     border: none;
 }
 
-.card-certificados-single p{
-    font-size: 16px;
-    margin-bottom: 5px;
+.card-certificados-rotulo{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid grey;
 }
 
-.card-certificados-single a{
+.card-certificados-rotulo p{
+    color: grey; 
+    font-size: 18px; 
+    font-style: italic; 
+    margin-bottom: 5px; 
+}
+
+.card-certificados-rotulo a{
+    display: block;
+    color: white; 
+    text-transform: uppercase;
     text-decoration: none;
-    color: black;
-    border: 1px solid #ccc;
-    padding: 2px 2px;
+    transition: color 0.3s ease; 
+}
+
+.card-certificados-rotulo a:hover {
+    color: grey; 
 }
 
 section.projetos{

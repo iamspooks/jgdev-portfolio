@@ -9,7 +9,7 @@ $(function(){
         if (windowPosicao > sobrePosicao - windowHeight / 2) {
             $('.sobre-mim, .sobre-skills').addClass('mostrar');
         } else {
-            $('.sobre-mim, sobre-skills').removeClass('mostrar');
+            $('.sobre-mim, .sobre-skills').removeClass('mostrar');
         }
     }
 
