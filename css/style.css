@@ -524,18 +524,14 @@ footer p{
     }
     .sobre-skills{
         width: 100%;
-        float: none;
         margin-top: 20px;
         margin-left: 0;
         opacity: 0; 
+        text-align: center;
         transition: opacity 5s ease; 
     }
     .sobre-skills h2{
         margin-left: 0;
-    }
-    .test{
-        margin-top: 200px;
-        white-space: nowrap;
     }
     .sobre-mim h2,
     .sobre-skills-single img,
