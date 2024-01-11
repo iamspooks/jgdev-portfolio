@@ -7,7 +7,7 @@ $(function(){
         $list_mobile_menu.slideToggle(300);
         $menu_mobile_open.hide();
         $menu_mobile_closed.show();
-        $('.inicio').animate({marginTop: '252px'}, 300);
+        $('.inicio').animate({marginTop: '312px'}, 300);
     });
 
     $menu_mobile_closed.click(function() {
