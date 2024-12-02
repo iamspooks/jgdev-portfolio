@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Oswald:wght@200..700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">    
+    <title>JGDev | Portfólio</title>
+</head>
+<body>
+
+    <!-- 22/08/2024 -->
+
+    <header>
+        <div class="container header-container">
+            <nav class="logo"><a href="http://">&lt; JGDev &gt;</a></nav>  <!-- logo -->
+            <nav class="desktop">
+                <ul class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>  <!-- desktop -->
+            <nav class="mobile">
+                <div class="mobile-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>  <!-- mobile-btn -->
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>  <!-- mobile -->
+        </div>  <!-- container -->
+    </header>
+
+    <main>
+        <section id="home" class="welcome">
+            <div class="container welcome-container">
+                <div class="welcome-1">
+                    <h2>Front-End & </br>Back-End</h2>
+                    <p>Olá, bem-vindo(a)</br>Me chamo João Gabriel (<strong class="border-animation">JGDev</strong>)</p>
+                </div>  <!-- welcome-1 -->
+                <div class="welcome-2">
+                    <img src="./perso.png" alt="">
+                </div>  <!-- welcome-2 -->
+            </div>  <!-- container -->
+        </section>  <!-- welcome -->
+
+        <section id="sobre" class="sobre">
+            <div class="container">
+                <h2>Sobre mim</h2>
+                <p>Olá, me chamo João Gabriel (JGDev), um desenvolvedor web que começou sua jornada em 2014 com a linguagem PAWN. Desde então, fui explorando diferentes áreas e linguagens, como front-end, onde mergulhei em HTML, CSS e JavaScript. Com o tempo, fui me aprofundando cada vez mais no mundo da programação, sempre aprendendo de forma autodidata e buscando novas soluções.</p>
+            </div>  <!-- container -->
+        </section>  <!-- sobre -->
+
+        <section id="projetos" class="projetos">
+            <div class="container">
+                <h2>Meus projetos</h2>
+                <div class="grid-projetos">
+                    <div class="card">
+                        <img src="01.png" alt="Projeto 1">
+                        <h3>E-book FullStack</h3>
+                        <p>Tecnologias usadas: HTML5, CSS3, JavaScript(JQuery)</p>
+                        <a class="card-btn" href="http://">Ver Código</a>
+                    </div>
+                    <div class="card">
+                        <img src="02.png" alt="Projeto 2">
+                        <h3>Click Delivery</h3>
+                        <p>Tecnologias usadas: HTML5, CSS3, JavaScript(JQuery)</p>
+                        <a class="card-btn" href="http://">Ver Código</a>
+                    </div>
+                    <div class="card">
+                        <img src="03.png" alt="Projeto 3">
+                        <h3>Loja Virtual</h3>
+                        <p>Tecnologias usadas: HTML5, CSS3, JavaScript(JQuery)</p>
+                        <a class="card-btn" href="http://">Ver Código</a>
+                    </div>
+                    <div class="card">
+                        <img src="04.png" alt="Projeto 4">
+                        <h3>Developer.ai</h3>
+                        <p>Tecnologias usadas: HTML5, CSS3, JavaScript(JQuery), PHP</p>
+                        <a class="card-btn" href="http://">Ver Código</a>
+                    </div>
+                    <!-- Você pode adicionar mais cards aqui --> 
+                </div> <!-- grid-projetos -->
+            </div>  <!-- container -->
+        </section>  <!-- projetos -->
+
+        <section id="contato" class="contato">
+            <div class="container">
+                <h2>Contato</h2>
+                <p>Para entrar em contato comigo basta clicar nos ícones abaixo:</p>
+                <div class="contato-icones">
+                    <div class="contato-icon">
+                        <a target="_blank" href="https://www.instagram.com/jg112015/">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="contato-icon">
+                        <a target="_blank" href="https://www.linkedin.com/in/joao-gabriel-brito-oliveira/">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <div class="contato-icon">
+                        <a target="_blank" href="https://github.com/iamspooks">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="contato-icon">
+                        <a target="_blank" href="mailto:jgdev00@gmail.com?subject=Assunto do e-mail&body=Olá,%20Gostaria%20de%20entrar%20em%20contato.">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                    <!-- Adicione mais ícones se necessário -->
+                </div>  <!-- contato-icones -->
+            </div>  <!-- container -->
+        </section>  <!-- contato -->
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>2025 &copy; Todos os direitos reservados</p>
+        </div>  <!-- container -->
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="functions.js"></script>
+</body>
+</html>
